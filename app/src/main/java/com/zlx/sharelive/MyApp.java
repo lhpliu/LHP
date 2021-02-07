@@ -2,6 +2,7 @@ package com.zlx.sharelive;
 
 import com.zlx.module_base.BaseApplication;
 import com.zlx.module_base.config.ModuleLifecycleConfig;
+import com.zlx.module_network.util.LogUtil;
 
 
 /**
@@ -16,6 +17,7 @@ public class MyApp extends BaseApplication {
     @Override
     public void onCreate() {
         super.onCreate();
+        LogUtil.show("11111");
         ModuleLifecycleConfig.getInstance().initModuleAhead(this);
     }
 
