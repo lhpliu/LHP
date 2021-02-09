@@ -17,7 +17,7 @@ public class MyApp extends BaseApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-        LogUtil.show("11111");
+        LogUtil.show("11111提交");
         ModuleLifecycleConfig.getInstance().initModuleAhead(this);
     }
 
